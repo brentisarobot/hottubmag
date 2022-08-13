@@ -10,7 +10,7 @@ const Home = () => {
         <>
         <main className={"flex h-screen " + background + " transition duration-500"}>
             <article className="container m-auto text-red-700">
-                <h1 className="text-3xl text-center mb-8">Home</h1>
+                <h1 className="text-3xl text-center mb-8">Choose a background color</h1>
                 <div className="text-center">
                     <button 
                     className="border-solid bg-indigo-600 rounded-md px-3 py-1 mx-4 text-white"
