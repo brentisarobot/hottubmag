@@ -1,11 +1,11 @@
 import './Footer.css'
 
-const Footer = () => (
+const Footer = (props) => (
 
         <>
             <footer className="bg-orange-300 p-11 text-center text-white">
                 <ul>
-                    <li>Link</li>
+                    {props.children}
                 </ul>
             </footer>
         </>
