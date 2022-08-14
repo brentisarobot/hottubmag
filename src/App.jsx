@@ -10,7 +10,7 @@ import Gallery from './pages/Gallery'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
-function App() {
+const App =() => {
 
   return (
       <>
