@@ -32,7 +32,12 @@ const Home = () => {
                         </button>
                 </div>
                 <br />
-                <p className="mb-8">
+             <div>
+                <a href="https://hottubmagazine.com" target="_blank">
+                    <img src="/src/assets/htlogo.png" className="logo" alt="Hot Tub logo" />
+                </a>
+             </div>
+                {/* <p className="mb-8">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptas a voluptatem odit maiores nobis porro explicabo eveniet fugiat consectetur esse saepe iure tempora ab repellendus, itaque debitis animi rem.
                 </p>
                 <p className="mb-8">
@@ -43,7 +48,7 @@ const Home = () => {
                 <p className="mb-8">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, error quis quo quia accusantium dignissimos, rem ex explicabo voluptatum asperiores repellendus saepe dolorum aspernatur eaque? Ad ea sequi beatae aut.
                     Eligendi quibusdam, repellendus aliquid quisquam voluptatem quae, facere explicabo eum asperiores accusamus similique sint nulla totam id, fugit molestiae inventore autem vero distinctio. Praesentium, quaerat atque optio sapiente eaque placeat.
-                </p>
+                </p> */}
             </article>
         </main>
         </>
