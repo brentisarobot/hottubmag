@@ -1,23 +1,30 @@
 import { useState } from 'react'
+import { Routes, Route, Link} from "react-router-dom"
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+import Nav from './components/Nav'
+import Footer from './components/Footer'
+
+import Home from './pages/Home'
+import Gallery from './pages/Gallery'
+import About from './pages/About'
+import Contact from './pages/Contact'
+
+const App =() => {
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://hottubmagazine.com" target="_blank">
-          <img src="/src/assets/htlogo.png" className="logo" alt="Hot Tub logo" />
-        </a>
-      </div>
-      <h1>How many minutes have you relaxed today?</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Minutes: {count}
-        </button>
-      </div>
-    </div>
+      <>
+      <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="gallery" element={<Gallery />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+      <Footer>
+        <Link to="/contact">Contact</Link>
+      </Footer>
+      </>
   )
 }
 

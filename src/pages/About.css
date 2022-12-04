@@ -1,0 +1,14 @@
+.show-more-enter {
+    opacity: 0;
+  }
+  .show-more-enter-active {
+    opacity: 1;
+    transition: 300ms;
+  }
+  .mshow-moreexit {
+    opacity: 1;
+  }
+  .show-more-exit-active {
+    opacity: 0;
+    transition: 300ms;
+  }
